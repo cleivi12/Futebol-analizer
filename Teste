@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Futebol Analyzer</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 18px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    input {
+      width: 200px;
+    }
+    button {
+      background-color: #238636;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2ea043;
+    }
+    h1 {
+      color: #58a6ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Futebol Analyzer ⚽</h1>
+  <form action="/analisar" method="post">
+    <input type="text" name="time1" placeholder="Digite o Time 1" required>
+    <input type="text" name="time2" placeholder="Digite o Time 2" required>
+    <br>
+    <button type="submit">Analisar</button>
+  </form>
+</body>
+</html>
